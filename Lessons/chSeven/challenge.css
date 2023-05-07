@@ -1,0 +1,49 @@
+.font {
+    font-family: Arial;
+    color: gray;
+}
+
+.link {
+    width: 380px;
+    padding: 8px 5px;
+    font-size: 16px;
+}
+
+.agree {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    width: 400px;
+    padding: 16px 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tCat {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tInput {
+    vertical-align: middle;
+    width: 300px;
+    padding: 10px 6px;
+    border: none;
+}
+
+.tButton {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+}
