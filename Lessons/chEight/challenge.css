@@ -1,0 +1,54 @@
+.name {
+    padding: 10px 6px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 14px;
+    width: 148px;
+}
+
+.email {
+    display: block;
+    margin: 8px 0;
+    padding: 10px 6px;
+    width: 313px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+.sign {
+    padding: 10px 0;
+    width: 327px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(47, 127, 231);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.uInput {
+    display: block;
+    padding: 10px 6px;
+    width: 300px;
+    margin: 6px 0;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.req {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    margin: 12px 8px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.sch {
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
