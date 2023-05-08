@@ -1,0 +1,40 @@
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.satisfy {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px 20px;
+}
+
+.satisfy p {
+    margin-top: 0;
+}
+
+.youtube {
+    width: 380px;
+    background-color: rgb(33, 33, 33);
+    padding: 10px 10px;
+    font-family: Arial;
+}
+
+.ins {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.add {
+    color: rgb(160, 160, 160);
+}

@@ -1,0 +1,100 @@
+.tweet {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    width: 450px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.tImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tInput {
+    padding: 10px 6px;
+    width: 300px;
+    border: none;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.tBtn {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(29, 155, 240);
+    vertical-align: middle;
+}
+
+.cat {
+    display: inline-block;
+    font-family: Arial;
+    width: 220px;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+
+.cat img {
+    width: 220px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cat .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px 10px;
+}
+
+.cat .fr {
+    color: gray;
+    margin: 2px 10px;
+}
+
+.cat button {
+    margin: 8px 10px;
+    padding: 10px 18px;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.google img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.google .gInput, .gBtns {
+    text-align: center;
+}
+
+.google input {
+    width: 600px;
+    padding: 16px;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 30px;
+    margin: 18px 0;
+}
+
+.google button {
+    padding: 14px 26px;
+    border: none;
+    font-size: 16px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
