@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 15 Exercises</title>
+    <style>
+        .video {
+            width: 300px;
+            height: 150px;
+            background-color: gray;
+            position: relative;
+            margin-left: 30px;
+        }
+
+        .close {
+            padding: 12px 18px;
+            text-align: center;
+            color: white;
+            background-color: black;
+            border-radius: 40px;
+            position: absolute;
+            top: -12px;
+            left: -12px;
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+        .time {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: white;
+            background-color: black;
+            padding: 4px 8px;
+            font-family: Arial;
+        }
+
+        .shirt {
+            position: relative;
+            width: 400px;
+            height: 400px;
+        }
+
+        .shirt img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .twenty {
+            background-color: black;
+            color: white;
+            padding: 12px;
+            position: absolute;
+            top: 20px;
+            right: 0px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .add {
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 400px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .add button {
+            padding: 8px 20px;
+            font-family: Arial;
+            cursor: pointer;
+            font-size: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lesson 15 Exercises</h1>
+
+    <p>15a. Video preview</p>
+    <div class="video">
+        <div class="close">X</div>
+        <div class="time">0:29</div>
+    </div>
+
+    <p>15b. 20% Off</p>
+    <div class="shirt">
+        <img src="shirt.jpg" alt="">
+        <div class="twenty">20% OFF</div>
+        <div class="add"><button>Add to Cart</button></div>
+    </div>
+</body>
+</html>
